@@ -13,10 +13,11 @@ public class Main {
         }
 
         String qq = "Hello ";
-        String ee = "World!";
+        String ee = "World! ";
+        int num = 12;
 
 
-        System.out.println(qq + ee);
+        System.out.println(qq + ee + num);
 
 
     }
