@@ -21,5 +21,15 @@ public class Main {
        vehicle1.setOdometer(0.0);
 
        System.out.println(vehicle1.toString());
+
+
+       Cars vehicle2 = new Cars();
+       vehicle2.setMake("Link n Co");
+       vehicle2.setModel("Zeekr");
+       vehicle2.setType("Electric");
+       vehicle2.setYear(2023);
+       vehicle2.setOdometer(100.0);
+
+       System.out.println(vehicle2.toString());
     }
 }
