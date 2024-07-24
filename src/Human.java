@@ -39,10 +39,10 @@ public class Human {
     @Override
     public String toString() {
         return "Human{" +
-                "Name = '" + name + '\'' +
-                ", Sex = '" + sex + '\'' +
-                ", Age  = " + age +
-                ", Status = '" + status + '\'' +
+                "NAME = '" + name + '\'' +
+                ", SEX = '" + sex + '\'' +
+                ", AGE  = " + age +
+                ", STATUS = '" + status + '\'' +
                 '}';
     }
 }
