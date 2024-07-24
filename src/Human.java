@@ -38,11 +38,10 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human: {" +
-                "NAME = '" + name + '\'' +
-                ", SEX = '" + sex + '\'' +
-                ", AGE  = " + age +
-                ", STATUS = '" + status + '\'' +
-                '}';
+        return "-= HUMAN SECTION =- " +
+                "\nNAME - " + name +
+                "\nSEX - " + sex  +
+                "\nAGE - " + age +
+                "\nSTATUS - " + status;
     }
 }
