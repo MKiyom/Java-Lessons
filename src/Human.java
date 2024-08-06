@@ -4,6 +4,10 @@ public class Human {
     int age;
     String status;
 
+    public void run(){
+        System.out.println("The Guy is Running...");
+    }
+
     public String getName() {
         return name;
     }
@@ -43,5 +47,9 @@ public class Human {
                 "\nSEX - " + sex  +
                 "\nAGE - " + age +
                 "\nSTATUS - " + status;
+    }
+
+    public void go(){
+        System.out.println("Kijo Raftestai???");
     }
 }
