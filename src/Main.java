@@ -8,12 +8,17 @@ public class Main {
         apples.add(Apple.IPHONE_15);
         apples.add(Apple.APPLE_WATCH);
         apples.add(Apple.HEADPHONE);
+
         // 1st WAY
         apples.forEach(System.out::println);
+
         // 2nd WAY
         for (Apple apple : apples) {
             System.out.println("Product: " + apple);
         }
+        // 3rd WAy
+        System.out.println(apples);
+
         System.out.println("++++++++++++========++++++++++++");
 
         ArrayList<Appliances> appliances = new ArrayList<>();
@@ -29,5 +34,7 @@ public class Main {
         for (Appliances appliances1 : appliances){
             System.out.println("Products: " + appliances1);
         }
+        // 3rd WAY
+        System.out.println(appliances);
     }
 }

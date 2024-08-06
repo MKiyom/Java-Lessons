@@ -21,4 +21,11 @@ public class Products {
     public void setAppliances(ArrayList<Appliances> appliances) {
         this.appliances = appliances;
     }
+
+    @Override
+    public String toString() {
+        return " Products - " +
+                " Apples - " + apples +
+                " Appliances - " + appliances;
+    }
 }
